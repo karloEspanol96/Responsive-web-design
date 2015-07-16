@@ -14,7 +14,7 @@
       width: 28px;
       height: 3px;
       margin: 0 0 5px 0;
-      background: white;
+      background: set-text-color($primary);
       @include easeout;
    }
 
@@ -50,7 +50,7 @@
    position: fixed;
    top:0;
    width: 100%;
-   opacity: 0.9;
+   
    visibility: hidden;
 
    &.show {
@@ -89,7 +89,7 @@
    &-branding {
       background: $primary;
       transform: translate3d(0, 100%, 0);
-      opacity: 1.0;
+      
       @include easeout;
 
      
@@ -97,12 +97,13 @@
       &.show {
          //Slide in from bottom
          transform: translate3d(0, 0, 0);
+         
       }
       
       .portrait {
          width: 250px;
          height: 250px;
-         background-image: url('../img/abiya.jpg');
+         background-image: url('../img/ysabel3.jpg');
          background-size: cover;
          border-radius: 50%;
          border: solid 3px $secondary-color;
@@ -133,7 +134,7 @@
       padding: 1rem 0;
       font-weight: 300;
       text-decoration: none;
-      
+     
 
       &:hover {
          color: $secondary-color;
